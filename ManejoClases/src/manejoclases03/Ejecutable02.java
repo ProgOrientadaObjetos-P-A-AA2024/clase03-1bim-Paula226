@@ -21,7 +21,7 @@ public class Ejecutable02 {
         h2.establecerNombre("Militar");
         h3.establecerNombre("Manuel IM");
         /*
-        el system no lee un valor lo cual  devuelve un valor 0
+        el system no lee un valor lo cual devuelve un valor 0
         
         */
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
