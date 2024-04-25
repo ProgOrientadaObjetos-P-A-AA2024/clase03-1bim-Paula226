@@ -20,9 +20,13 @@ public class Ejecutable02 {
         h1.establecerNombre("Vaca Ortíz");
         h2.establecerNombre("Militar");
         h3.establecerNombre("Manuel IM");
+        /*
+        el system no lee un valor lo cual  devuelve un valor 0
         
+        */
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
                 h1.obtenerNumeroCamas(), h1.obtenerPresupuesto());
+        /*
         
         h1.establecerNombre("Hospital Vaca Ortíz");
         
@@ -33,7 +37,7 @@ public class Ejecutable02 {
         
         System.out.printf("%s - %d - %.2f\n", h2.obtenerNombre(),
                 h2.obtenerNumeroCamas(), h2.obtenerPresupuesto());
-        
+        */
         
     }
 }
